@@ -3,3 +3,5 @@ temp/
 
 *.swo
 *.swp
+
+*.log
