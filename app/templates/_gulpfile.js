@@ -95,6 +95,15 @@ gulp.task('build-css', [
 	'build-css-production'
 ]);
 
+gulp.task('build-development', [
+	'build-javascript-development',
+	'build-css-development'
+]);
+
+gulp.task('build', [
+	'build-javascript-production',
+	'build-css-production'
+]);
 /**
  * Tie watches together
  */

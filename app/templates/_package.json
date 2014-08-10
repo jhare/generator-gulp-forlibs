@@ -10,6 +10,7 @@
 	"gulp-rename": "1.2.x",
 	"gulp-rimraf": "0.1.x",
 	"gulp-livereload": "2.x.x",
-	"gulp-concat": "2.3.x"
+	"gulp-concat": "2.3.x",
+	"gulp-uglify": "0.3.x"
   }
 }
