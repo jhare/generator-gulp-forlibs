@@ -23,6 +23,7 @@ var GulpForlibsGenerator = yeoman.generators.Base.extend({
     // Have Yeoman greet the user.
     this.log(yosay('Welcome to the marvelous GulpForlibs generator!'));
 
+	/*
     var prompts = [{
       type: 'confirm',
       name: 'someOption',
@@ -35,6 +36,7 @@ var GulpForlibsGenerator = yeoman.generators.Base.extend({
 
       done();
     }.bind(this));
+	*/
   },
 
   app: function () {
