@@ -17,13 +17,13 @@ var GulpForlibsGenerator = yeoman.generators.Base.extend({
     });
   },
 
+	/*
   askFor: function () {
     var done = this.async();
 
     // Have Yeoman greet the user.
     this.log(yosay('Welcome to the marvelous GulpForlibs generator!'));
 
-	/*
     var prompts = [{
       type: 'confirm',
       name: 'someOption',
@@ -36,8 +36,8 @@ var GulpForlibsGenerator = yeoman.generators.Base.extend({
 
       done();
     }.bind(this));
-	*/
   },
+	*/
 
   app: function () {
     this.mkdir('app');
@@ -49,6 +49,7 @@ var GulpForlibsGenerator = yeoman.generators.Base.extend({
   projectfiles: function () {
     this.copy('editorconfig', '.editorconfig');
     this.copy('jshintrc', '.jshintrc');
+
 	this.copy('_gulpfile.js', 'gulpfile.js');
   }
 });

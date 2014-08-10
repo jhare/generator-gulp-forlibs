@@ -30,9 +30,11 @@ describe('gulp-forlibs generator', function () {
       '.editorconfig'
     ];
 
+	/*
     helpers.mockPrompt(this.app, {
       'someOption': true
     });
+	*/
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
       helpers.assertFile(expected);
